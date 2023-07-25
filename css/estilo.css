@@ -114,13 +114,14 @@ iframe {
     align-content: center;
 }
 
-.iframe {
+.mapa {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*Versión celu*/
+
 @media (max-width: 500px) {
     iframe {
         height: 25rem;
