@@ -44,7 +44,7 @@ label {
 .container-fluid {
     padding-left: 1%;
     padding-right: 1%;
-  }
+}
 
 /*Footer*/
 footer {
@@ -111,8 +111,31 @@ figure {
 
 /*Pág mapa*/
 iframe {
-    margin-left: 20%;
+    align-content: center;
 }
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Versión celu*/
+@media (max-width: 500px) {
+    iframe {
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+/*Versión tablet*/
+@media (min-width:501px) and (max-width: 900px) {
+    iframe {
+        height: 35rem;
+        width: 35rem;
+    }
+}
+
 
 /*Pág contacto*/
 
