@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcán Molina</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS Y Fuentes -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand bt" href="#">Contacto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link header" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header" href="actividades.html">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header" href="informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header" href="mapa.html">Mapa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="contenedor bodyForm">
+            <h1 class="tituloForm">Formualrio de contacto</h1>
+            <div class="caja cuerpoForm">
+                <form>
+                    <label for="nombre" class="texto">Nombre:</label> <br>
+                    <input type="text" placeholder="Juan"> <br>
+
+                    <label for="apellido" class="texto">Apellido:</label><br>
+                    <input type="text" placeholder="Perez"><br>
+
+                    <label for="correo" class="texto">Correo electrónico:</label><br>
+                    <input type="email" placeholder="juanperez@gmail.com"><br>
+
+                    <p>¿Visitaste el Volcán Molina?</p>
+                    <select name="¿Visitaste el Volcán Molina?">
+                        <option value="Sí">Sí</option>
+                        <option value="No">No</option>
+                    </select>
+
+                    <p>Dejanos tu mensaje o consulta</p>
+                    <textarea cols="30" rows="10"
+                        placeholder="Aquí puede ingresar un mensaje o consulta y le responderemos a la brevedad."></textarea>
+                    <br>
+                    <input type="Submit">
+                    <input type="Reset">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p> Página creada por Jazmín Isabel Castelo </p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

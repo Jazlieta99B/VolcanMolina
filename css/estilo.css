@@ -1,0 +1,232 @@
+/*Generalidades*/
+
+body {
+    background-color: #f2d680;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #914e09;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #914e09;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+p,
+.act,
+label {
+    color: #914e09;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.navbar {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: bisque;
+}
+
+.container-fluid {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+/*Footer*/
+footer {
+    background-color: #eb9c4d;
+    color: #914e09;
+    font-size: 1rem;
+    width: 100%;
+    bottom: 0;
+}
+
+/*Pág inicio*/
+.titulo {
+    text-decoration: none;
+}
+
+.bt {
+    color: #d7710a;
+    font-weight: bold;
+}
+
+.header {
+    font-size: 1.3rem;
+    color: #eb9c4d;
+}
+
+.header:hover {
+    color: #d7710a;
+    font-size: 1.4rem;
+}
+
+figure {
+    border: #914e09 0.2rem solid;
+    border-radius: 0.5rem;
+    color: #914e09;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #eb9c4d;
+}
+
+/*Pág info*/
+
+figure {
+    height: 15rem;
+    width: 20rem;
+}
+
+.guanaco {
+    height: 20rem;
+    width: 16rem;
+}
+
+.zorro {
+    height: 12rem;
+    width: 19rem;
+}
+
+.fauna,
+.flora {
+    display: inline-flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/*Pág mapa*/
+iframe {
+    margin-left: 20%;
+}
+
+/*Pág contacto*/
+
+.caja {
+    background-color: #f3e4b6;
+    width: 35%;
+    height: 40%;
+    border: 0.2rem #914e09 solid;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin: 5% 35%;
+    overflow: scroll;
+}
+
+textarea {
+    margin: 5% 10%;
+}
+
+textarea:focus {
+    background-color: #b3d6e1;
+
+}
+
+input {
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: #b3d6e1;
+    font-size: 1.5rem;
+}
+
+.contenedorForm {
+    display: grid;
+    grid-template-areas: "header" "body" "pie";
+}
+
+.headerForm {
+    grid-area: header;
+}
+
+.bodyForm {
+    grid-area: body;
+}
+
+.pieForm {
+    grid-area: pie;
+}
+
+form {
+    margin: auto;
+}
+
+/*Versión tablet*/
+@media (min-width:501px) and (max-width: 900px) {
+
+    .caja {
+        width: 50%;
+        height: 50%;
+    }
+
+    .navegador {
+        font-size: 1.4rem;
+    }
+
+    .footerForm {
+        font-size: 1rem;
+    }
+
+    .cuerpoForm {
+        font-size: 1rem;
+    }
+
+    .tituloForm {
+        font-size: 1.4rem;
+    }
+
+    .contenedorForm {
+        grid-template-areas:
+            "header header"
+            "body body"
+            "pie pie";
+    }
+}
+
+/*Versión celu*/
+@media (max-width: 500px) {
+
+    .caja {
+        width: 50%;
+        height: 50%;
+    }
+
+    .navegador {
+        font-size: 1rem;
+    }
+
+    .footerForm {
+        font-size: 0.8rem;
+    }
+
+    .cuerpoForm {
+        font-size: 1rem;
+    }
+
+    .tituloForm {
+        font-size: 1.4rem;
+    }
+
+    .contenedorForm {
+        grid-template-areas:
+            "header header"
+            "body body"
+            "pie pie";
+    }
+}
