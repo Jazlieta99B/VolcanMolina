@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-h1 {
+h2 {
     font-size: 2rem;
     color: #914e09;
     text-align: center;
@@ -15,7 +15,6 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -34,11 +33,20 @@ label {
     text-align: justify;
 }
 
+/*Header*/
+
 .navbar {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
-    background-color: bisque;
+}
+
+.VMNav {
+    font-size: 2rem;
+}
+
+.fuenteNavBar {
+    font-size: 1rem;
 }
 
 .container-fluid {
@@ -46,23 +54,13 @@ label {
     padding-right: 1%;
 }
 
-/*Footer*/
-footer {
-    background-color: #eb9c4d;
-    color: #914e09;
-    font-size: 1rem;
-    width: 100%;
-    bottom: 0;
-}
-
-/*Pág inicio*/
-.titulo {
-    text-decoration: none;
-}
-
 .bt {
     color: #d7710a;
     font-weight: bold;
+}
+
+.bt:hover {
+    color: #d7710a;
 }
 
 .header {
@@ -73,6 +71,24 @@ footer {
 .header:hover {
     color: #d7710a;
     font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+footer {
+    background-color: #eb9c4d;
+    color: #914e09;
+    width: 100%;
+    bottom: 0;
+}
+
+.pie {
+    font-size: 1rem;
+}
+
+/*Pág inicio*/
+.titulo {
+    text-decoration: none;
 }
 
 figure {
@@ -109,6 +125,10 @@ figure {
     flex-wrap: wrap;
 }
 
+.subTitulo {
+    text-decoration: underline;
+}
+
 /*Pág mapa*/
 .PMMapa {
     align-content: center;
@@ -142,17 +162,17 @@ figure {
     .PMMapa {
         height: 40rem;
         width: 45rem;
-}
+    }
 }
 
 
 /*Pág contacto*/
 
 .caja {
-    background-color: #f3e4b6;
+    background-color: bisque;
     width: 35%;
     height: 40%;
-    border: 0.2rem #914e09 solid;
+    border: 0.2rem #eb9c4d solid;
     text-align: center;
     border-radius: 0.5rem;
     padding: 0.3rem;
@@ -160,7 +180,12 @@ figure {
     overflow: scroll;
 }
 
+label {
+    display: block;
+}
+
 textarea {
+    display: block;
     margin: 5% 10%;
 }
 
@@ -196,7 +221,7 @@ input:focus {
 }
 
 form {
-    margin: auto;
+    margin: 5%;
 }
 
 /*Versión tablet*/
@@ -205,6 +230,7 @@ form {
     .caja {
         width: 50%;
         height: 50%;
+        margin-left: 20%;
     }
 
     .navegador {
@@ -219,10 +245,6 @@ form {
         font-size: 1rem;
     }
 
-    .tituloForm {
-        font-size: 1.4rem;
-    }
-
     .contenedorForm {
         grid-template-areas:
             "header header"
@@ -231,12 +253,14 @@ form {
     }
 }
 
+
 /*Versión celu*/
 @media (max-width: 500px) {
 
     .caja {
-        width: 50%;
-        height: 50%;
+        width: 80%;
+        height: 60%;
+        margin-left: 10%;
     }
 
     .navegador {
@@ -249,10 +273,6 @@ form {
 
     .cuerpoForm {
         font-size: 1rem;
-    }
-
-    .tituloForm {
-        font-size: 1.4rem;
     }
 
     .contenedorForm {
