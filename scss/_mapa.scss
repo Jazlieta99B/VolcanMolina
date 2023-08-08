@@ -1,0 +1,35 @@
+.PMMapa {
+    align-content: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Versión celu*/
+
+@media (max-width: 500px) {
+    .PMMapa {
+        height: 25rem;
+        width: 25rem;
+    }
+}
+
+/*Versión tablet*/
+@media (min-width: 501px) and (max-width: 900px) {
+    .PMMapa {
+        height: 35rem;
+        width: 35rem;
+    }
+}
+
+/*Versión compu*/
+@media (min-width: 901px) {
+    .PMMapa {
+        height: 40rem;
+        width: 45rem;
+    }
+}
+

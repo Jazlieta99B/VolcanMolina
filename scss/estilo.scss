@@ -1,0 +1,105 @@
+@import "variables", "header", "footer", "form", "mapa";
+body {
+	background-color: #f2d680;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	h2 {
+		font-size: 2rem;
+		color: #914e09;
+		text-align: center;
+		font-style: oblique;
+		font-family: 'Playfair Display', serif;
+	}
+	h3 {
+		color: #914e09;
+		font-style: oblique;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.5rem;
+	}
+	h4 {
+		color: #914e09;
+		font-style: oblique;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.5rem;
+	}
+	h5 {
+		color: #914e09;
+		font-style: oblique;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.5rem;
+	}
+	h6 {
+		color: #914e09;
+		font-style: oblique;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.5rem;
+	}
+	p {
+		color: #914e09;
+		font-size: 1.3rem;
+		text-align: justify;
+	}
+	.act {
+		color: #914e09;
+		font-size: 1.3rem;
+		text-align: justify;
+	}
+	label {
+		color: #914e09;
+		font-size: 1.3rem;
+		text-align: justify;
+	}
+}
+
+.titulo {
+    text-decoration: none;
+}
+
+figure {
+    border: #914e09 0.2rem solid;
+    border-radius: 0.5rem;
+    color: #914e09;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #eb9c4d;
+}
+
+figure {
+    height: 15rem;
+    width: 20rem;
+}
+
+.guanaco {
+    height: 20rem;
+    width: 16rem;
+}
+
+.zorro {
+    height: 12rem;
+    width: 19rem;
+}
+
+.fauna,
+.flora {
+    display: inline-flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.subTitulo {
+    text-decoration: underline;
+}
+
+.linea {
+	text-decoration: $subrayado;
+}
+
+.italica {
+	font-style: $italica;
+}
+
+.negrita {
+	font-weight: $negrita;
+}

@@ -1,0 +1,94 @@
+.caja {
+	background-color: bisque; 
+	width: 35%; 
+	height: 40%; 
+	border: 0.2rem #eb9c4d solid; 
+	text-align: center; 
+	border-radius: 0.5rem; 
+	padding: 0.3rem; 
+	margin: 5% 35%; 
+	
+	label {
+		display: block ;}
+	textarea {
+		display: block ;
+		margin: 5% 10% ;}
+		&:focus {
+			background-color: #b3d6e1; }
+	input {
+		cursor: pointer; }
+		&:focus {
+			background-color: #b3d6e1; 
+			font-size: 1.5rem; }}
+.contenedorForm {
+	display: grid; 
+	grid-template-areas: "header" "body" "pie"; }
+.headerForm {
+	grid-area: header; }
+.bodyForm {
+	grid-area: body; }
+.pieForm {
+	grid-area: pie; }
+form {
+	margin: 5%; }
+
+/*Versión tablet*/
+@media (min-width:501px) and (max-width: 900px) {
+
+    .caja {
+        width: 50%;
+        height: 50%;
+        margin-left: 20%;
+        overflow: scroll; 
+    }
+
+    .navegador {
+        font-size: 1.4rem;
+    }
+
+    .footerForm {
+        font-size: 1rem;
+    }
+
+    .cuerpoForm {
+        font-size: 1rem;
+    }
+
+    .contenedorForm {
+        grid-template-areas:
+            "header header"
+            "body body"
+            "pie pie";
+    }
+}
+
+
+/*Versión celu*/
+@media (max-width: 500px) {
+
+    .caja {
+        width: 80%;
+        height: 60%;
+        margin-left: 10%;
+        overflow: scroll; 
+    }
+
+    .navegador {
+        font-size: 1rem;
+    }
+
+    .footerForm {
+        font-size: 0.8rem;
+    }
+
+    .cuerpoForm {
+        font-size: 1rem;
+    }
+
+    .contenedorForm {
+        grid-template-areas:
+            "header header"
+            "body body"
+            "pie pie";
+    }
+}
