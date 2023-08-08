@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volcán Molina</title>
+    <meta name="description"
+        content="Ubicación del Volcán Molina y breve descripción de Perito Moreno, localidad aledaña de este sitio turístico">
+    <meta name="keywords"
+        content="Volcán, Volcan Molina, Perito Moreno, Santa Cruz, Argentina, Turismo, Cueva de las Manos, Parque Nacional Patagonia">
+    <title>Volcán Molina ~ Mapa</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -15,7 +19,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
+    <!-- Icono de la página -->
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+    <!-- Link animaciones -->
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,7 +63,7 @@
             </nav>
         </header>
         <div>
-            <h2>Perito Moreno</h2>
+            <h2 class="animate__animated animate__bounceIn">Perito Moreno</h2>
             <p>Al Volcán Molina se llega desde la localidad de <em class="negrita">Perito Moreno</em>, que se encuentra
                 a 21 kilómetros. La misma
                 se
@@ -77,13 +87,16 @@
                     Manos</em> el
                 cual es el principal atractivo turístico de la localidad, pero además, se ofrece <em
                     class="linea">Camino del Monte
-                Zeballos</em>; <em class="linea">las chacras productoras</em> mencionadas anteriormente; el <em
-                    class="linea">Parque Nacional Patagonia</em>; <em class="linea">Alero Charcamata</em>; <em class="linea">la Posta de
-                Los
-                Toldos</em>; el <em class="linea">museo de
-                arqueología Carlos Gradín</em>; y el <em class="linea">Salón Iturrioz</em>. También se añade la excursión a las <em class="linea">catedrales y
-                capillas de
-                mármol</em> ubicadas en Chile.</p>
+                    Zeballos</em>; <em class="linea">las chacras productoras</em> mencionadas anteriormente; el <em
+                    class="linea">Parque Nacional Patagonia</em>; <em class="linea">Alero Charcamata</em>; <em
+                    class="linea">la Posta de
+                    Los
+                    Toldos</em>; el <em class="linea">museo de
+                    arqueología Carlos Gradín</em>; y el <em class="linea">Salón Iturrioz</em>. También se añade la
+                excursión a las <em class="linea">catedrales y
+                    capillas de
+                    mármol</em> ubicadas en Chile.
+            </p>
             <div class="mapa">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31020.519781851217!2d-70.91721108933532!3d-46.5901534676609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1687444934467!5m2!1ses!2sar"
@@ -99,6 +112,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

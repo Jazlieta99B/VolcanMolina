@@ -168,6 +168,52 @@ form {
     width: 45rem;
   }
 }
+h3,
+h4,
+h5,
+h6 {
+  color: #914e09;
+  font-style: oblique;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+}
+
+figure {
+  border: #914e09 0.2rem solid;
+  border-radius: 0.5rem;
+  color: #914e09;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #eb9c4d;
+  height: 15rem;
+  width: 20rem;
+}
+
+.guanaco {
+  border: #914e09 0.2rem solid;
+  border-radius: 0.5rem;
+  color: #914e09;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #eb9c4d;
+  height: 20rem;
+  width: 16rem;
+}
+
+.zorro {
+  border: #914e09 0.2rem solid;
+  border-radius: 0.5rem;
+  color: #914e09;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #eb9c4d;
+  height: 12rem;
+  width: 19rem;
+}
+
 body {
   background-color: #f2d680;
   font-family: "Poppins", sans-serif;
@@ -180,30 +226,6 @@ body h2 {
   text-align: center;
   font-style: oblique;
   font-family: "Playfair Display", serif;
-}
-body h3 {
-  color: #914e09;
-  font-style: oblique;
-  font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-}
-body h4 {
-  color: #914e09;
-  font-style: oblique;
-  font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-}
-body h5 {
-  color: #914e09;
-  font-style: oblique;
-  font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-}
-body h6 {
-  color: #914e09;
-  font-style: oblique;
-  font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
 }
 body p {
   color: #914e09;
@@ -225,38 +247,6 @@ body label {
   text-decoration: none;
 }
 
-figure {
-  border: #914e09 0.2rem solid;
-  border-radius: 0.5rem;
-  color: #914e09;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  background-color: #eb9c4d;
-}
-
-figure {
-  height: 15rem;
-  width: 20rem;
-}
-
-.guanaco {
-  height: 20rem;
-  width: 16rem;
-}
-
-.zorro {
-  height: 12rem;
-  width: 19rem;
-}
-
-.fauna,
-.flora {
-  display: inline-flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
 .subTitulo {
   text-decoration: underline;
 }
@@ -271,6 +261,13 @@ figure {
 
 .negrita {
   font-weight: bold;
+}
+
+.fauna,
+.flora {
+  display: inline-flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=estilo.css.map */

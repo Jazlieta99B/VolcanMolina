@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volcán Molina</title>
+    <meta name="description" content="Como es la flora, fauna, clima y geografía del campo donde esta el Volcán Molina">
+    <meta name="keywords"
+        content="Volcán, Volcan Molina, Perito Moreno, Santa Cruz, Argentina, Turismo, Cueva de las Manos, Parque Nacional Patagonia">
+    <title>Volcán Molina ~ Información</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -15,7 +18,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
+    <!-- Icono de la página -->
     <link rel="shortcut icon" href="../img/icono.png" type="image/x-icon">
+    <!-- Link animaciones -->
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -53,15 +62,17 @@
             </nav>
         </header>
         <div>
-            <h2>Información del lugar</h2>
+            <h2 class="animate__animated animate__bounceIn">Información del lugar</h2>
             <div>
-                <h3 class="subTitulo">Fauna</h3>
-                <p>Es posible ver al <em class="negrita">macá tobiano</em>, una especie que solo se encuentra en la provincia de Santa Cruz.
+                <h3 class="subTitulo" data-aos="flip-up">Fauna</h3>
+                <p>Es posible ver al <em class="negrita">macá tobiano</em>, una especie que solo se encuentra en la
+                    provincia de Santa Cruz.
                     Su
                     nombre
                     técnico es Podiceps Gallardoi y es un ave zambullidora que fue descubierta en el año 1974 y cuya
                     población
-                    se encuentra en <em class="linea">peligro crítico</em>. También es posible encontrar en la zona a lagartijas
+                    se encuentra en <em class="linea">peligro crítico</em>. También es posible encontrar en la zona a
+                    lagartijas
                     (primitiva, de
                     Silvana, de Ávila, entre otras), tuco-tuco magallánicos, chinchillón anaranjados, peludos,
                     zorros
@@ -70,26 +81,27 @@
                     cóndores,
                     patos
                     de
-                    los torrentes, cauquenes y flamencos. Además, habitan los huemules, designado <em class="linea">Monumento Natural
-                    Provincial</em>
+                    los torrentes, cauquenes y flamencos. Además, habitan los huemules, designado <em
+                        class="linea">Monumento Natural
+                        Provincial</em>
                     por su condición de especie en peligro de extinción.</p>
 
                 <section class="fauna">
-                    <figure class="guanaco">
-                        <img src="../img/guanaco.png" alt="Foto de un guanaco" class="img-fluid">
+                    <figure class="guanaco" data-aos="zoom-out">
+                        <img src="../img/guanaco.png" alt="Foto de guanaco" class="img-fluid">
                         <figcaption>Guanaco</figcaption>
                     </figure>
-                    <figure class="zorro">
-                        <img src="../img/zorro.png" alt="Foto de un zorro" class="img-fluid">
+                    <figure class="zorro" data-aos="zoom-out">
+                        <img src="../img/zorro.png" alt="Foto de zorro" class="img-fluid">
                         <figcaption>Zorro</figcaption>
                     </figure>
-                    <figure>
-                        <img src="../img/macaTobiano.png" alt="Foto de un Macá Tobiano" class="img-fluid">
+                    <figure data-aos="zoom-out">
+                        <img src="../img/macaTobiano.png" alt="Foto de Macá Tobiano" class="img-fluid">
                         <figcaption>Macá Tobiano</figcaption>
                     </figure>
                 </section>
 
-                <h3 class="subTitulo">Flora</h3>
+                <h3 class="subTitulo" data-aos="flip-up">Flora</h3>
                 <p>La vegetación que predomina en el lugar son las matas y arbustos bajos, sin embargo, hay varios
                     cursos de
                     agua tales como ríos, arroyos y manantiales que generan humedales. En el lugar se pueden
@@ -107,23 +119,24 @@
                     restante está cubierto de vegetación escasa.</p>
 
                 <section class="flora">
-                    <figure>
+                    <figure data-aos="zoom-out">
                         <img src="../img/flora.png" alt="Foto de arbusto" class="img-fluid">
                         <figcaption>Arbusto</figcaption>
                     </figure>
-                    <figure>
+                    <figure data-aos="zoom-out">
                         <img src="../img/flora1.png" alt="Foto de arbusto" class="img-fluid">
                         <figcaption>Arbusto</figcaption>
                     </figure>
                 </section>
 
-                <h3 class="subTitulo">Clima</h3>
+                <h3 class="subTitulo" data-aos="flip-up">Clima</h3>
                 <p>Esta estepa es una zona árida con fuertes vientos durante todo el año, pero de mayor velocidad y
                     duración
                     durante verano y primavera; hay pocas precipitaciones, aunque son recurrentes las heladas y las
                     nevadas
                     a lo
-                    largo de todo el año. La temporada <em class="linea">templada</em> corresponde a los meses de noviembre a marzo, donde
+                    largo de todo el año. La temporada <em class="linea">templada</em> corresponde a los meses de
+                    noviembre a marzo, donde
                     la
                     temperatura máxima promedio es de más de 18ºC y la mínima de 10ºC. Sin embargo, durante la
                     temporada
@@ -131,44 +144,52 @@
                     desde mayo hasta agosto, la temperatura máxima promedio es de 9ºC y la mínima promedio es de
                     -1ºC. A
                     pesar
-                    de estas dos temporadas, las <em class="linea">nevadas</em> son comunes durante todo el año, inclusive se registraron
+                    de estas dos temporadas, las <em class="linea">nevadas</em> son comunes durante todo el año,
+                    inclusive se registraron
                     en
                     septiembre, enero y diciembre. La temperatura máxima atmosférica anual es de 38.2 y la mínima
                     atmosférica
-                    anual es de -17,5. La temporada con mayor <em class="linea">lluvia</em> es desde abril hasta septiembre y el promedio
+                    anual es de -17,5. La temporada con mayor <em class="linea">lluvia</em> es desde abril hasta
+                    septiembre y el promedio
                     registrado es
                     de 13 milímetros; durante el periodo restante, septiembre a abril, la lluvia promedio es de 5
                     milímetros.
-                    Por su parte, la velocidad del viento depende de la época del año. La temporada de <em class="linea">mayores
-                    vientos</em>
+                    Por su parte, la velocidad del viento depende de la época del año. La temporada de <em
+                        class="linea">mayores
+                        vientos</em>
                     es
                     desde
                     octubre hasta marzo con un promedio de 23,2 kilómetros por hora, siendo diciembre el mes más
                     ventoso
                     al
-                    registrar vientos de velocidad promedio de 28,3 kilómetros por hora. La temporada con <em class="linea">menos
-                    viento</em>
+                    registrar vientos de velocidad promedio de 28,3 kilómetros por hora. La temporada con <em
+                        class="linea">menos
+                        viento</em>
                     es
                     desde
-                    marzo hasta octubre con una velocidad de 18 kilómetros por hora.</p>
+                    marzo hasta octubre con una velocidad de 18 kilómetros por hora.
+                </p>
 
-                <h3 class="subTitulo">Geografía</h3>
-                <p>Volcán Molina, también conocido como <em class="negrita">Pajel Kaike</em>, <em class="negrita">cerro Ashpech</em> o <em class="negrita">cerro Ashpaik</em>, está situado dentro de
+                <h3 class="subTitulo" data-aos="flip-up">Geografía</h3>
+                <p>Volcán Molina, también conocido como <em class="negrita">Pajel Kaike</em>, <em class="negrita">cerro
+                        Ashpech</em> o <em class="negrita">cerro Ashpaik</em>, está situado dentro de
                     la
                     estepa
                     patagónica, un área de vastas llanuras, mesetas escalonadas, cañadones y conos volcánicos.
                     Volcán
                     Molina
                     es
-                    un <em class="linea">volcán extinto</em>, en consecuencia, su boca es accesible y en él pueden observarse <em class="linea">asomos
-                    basálticos</em>
+                    un <em class="linea">volcán extinto</em>, en consecuencia, su boca es accesible y en él pueden
+                    observarse <em class="linea">asomos
+                        basálticos</em>
                     formados en la era Cuaternaria; los asomos basálticos son formaciones rocosas de color negro o
                     gris
                     oscuro,
                     con minerales tan pequeños que no se pueden ver a simple vista. Esta roca se forma cuando la
                     lava
                     volcánica
-                    es cristalizada de manera repentina. Además, en la cima del volcán hay <em class="linea">piedra pómez</em>, la cual es
+                    es cristalizada de manera repentina. Además, en la cima del volcán hay <em class="linea">piedra
+                        pómez</em>, la cual es
                     liviana
                     y
                     porosa, es un sitio es interesante geológicamente por ser algo “excepcional”, dado que es un
@@ -188,6 +209,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

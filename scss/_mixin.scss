@@ -1,0 +1,37 @@
+@mixin titulo {
+    color: #914e09;
+    font-style: oblique;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    @include titulo;
+}
+
+@mixin figure ($height, $widht) {
+    border: #914e09 0.2rem solid;
+    border-radius: 0.5rem;
+    color: #914e09;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #eb9c4d;
+    height: $height;
+    width: $widht;
+}
+
+figure {
+    @include figure(15rem, 20rem)
+}
+
+.guanaco {
+    @include figure(20rem, 16rem)
+}
+
+.zorro {
+    @include figure(12rem, 19rem)
+}
