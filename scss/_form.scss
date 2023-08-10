@@ -13,22 +13,23 @@
     }
 
     textarea {
-        display: block;
-        margin: 5% 10%;
-    }
-
-    &:focus {
-        background-color: #b3d6e1;
+        justify-content: center;
+        align-content: center;
     }
 
     input {
         cursor: pointer;
     }
 
-    &:focus {
-        background-color: #b3d6e1;
-        font-size: 1.5rem;
+    .boton {
+        background-color: bisque;
+        border: gray 0.1rem solid;
     }
+
+    .boton:hover {
+        background-color: #f1bc86;
+    }
+
 }
 
 .contenedorForm {
