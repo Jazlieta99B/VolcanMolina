@@ -1,18 +1,10 @@
-@import "variables", "header", "footer", "form", "mapa", "mixin";
+@import "variables", "header", "footer", "form", "mapa", "mixin", "titulos";
 
 body {
 	background-color: #f4e0a4;
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
-
-	h2 {
-		font-size: 2rem;
-		color: #914e09;
-		text-align: center;
-		font-style: oblique;
-		font-family: 'Playfair Display', serif;
-	}
 
 	p {
 		color: #914e09;
@@ -31,10 +23,6 @@ body {
 		font-size: 1.3rem;
 		text-align: justify;
 	}
-}
-
-.titulo {
-	text-decoration: none;
 }
 
 .subTitulo {

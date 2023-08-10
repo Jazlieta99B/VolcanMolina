@@ -63,7 +63,7 @@ footer .pie {
   text-align: center;
   border-radius: 0.5rem;
   padding: 0.3rem;
-  margin: 5% 35%;
+  margin: 1% 33%;
 }
 .caja label {
   display: block;
@@ -223,18 +223,53 @@ figure {
   width: 19rem;
 }
 
-body {
-  background-color: #f4e0a4;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-body h2 {
+span {
   font-size: 2rem;
   color: #914e09;
   text-align: center;
   font-style: oblique;
   font-family: "Playfair Display", serif;
+}
+
+.titulo {
+  text-decoration: none;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.typing-container {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: black;
+  }
+}
+body {
+  background-color: #f4e0a4;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body p {
   color: #914e09;
@@ -250,10 +285,6 @@ body label {
   color: #914e09;
   font-size: 1.3rem;
   text-align: justify;
-}
-
-.titulo {
-  text-decoration: none;
 }
 
 .subTitulo {
