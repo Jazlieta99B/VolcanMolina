@@ -23,27 +23,27 @@ body {
 		font-size: 1.3rem;
 		text-align: justify;
 	}
-}
 
-.subTitulo {
-	text-decoration: underline;
-}
+	.subTitulo {
+		text-decoration: underline;
+	}
 
-.linea {
-	text-decoration: $subrayado;
-}
+	.linea {
+		text-decoration: $subrayado;
+	}
 
-.italica {
-	font-style: $italica;
-}
+	.italica {
+		font-style: $italica;
+	}
 
-.negrita {
-	font-weight: $negrita;
-}
+	.negrita {
+		font-weight: $negrita;
+	}
 
-.fauna,
-.flora {
-	display: inline-flex;
-	gap: 2rem;
-	flex-wrap: wrap;
+	.fauna,
+	.flora {
+		display: inline-flex;
+		gap: 2rem;
+		flex-wrap: wrap;
+	}
 }

@@ -8,49 +8,33 @@
     padding: 0.3rem;
     margin: 1% 33%;
 
-    label {
-        display: block;
+    form {
+        margin: 5%;
+
+
+        label {
+            display: block;
+        }
+
+        textarea {
+            justify-content: center;
+            align-content: center;
+        }
+
+        input {
+            cursor: pointer;
+        }
+
+        .boton {
+            background-color: bisque;
+            border: gray 0.1rem solid;
+        }
+
+        .boton:hover {
+            background-color: #f1bc86;
+        }
     }
 
-    textarea {
-        justify-content: center;
-        align-content: center;
-    }
-
-    input {
-        cursor: pointer;
-    }
-
-    .boton {
-        background-color: bisque;
-        border: gray 0.1rem solid;
-    }
-
-    .boton:hover {
-        background-color: #f1bc86;
-    }
-
-}
-
-.contenedorForm {
-    display: grid;
-    grid-template-areas: "header" "body" "pie";
-}
-
-.headerForm {
-    grid-area: header;
-}
-
-.bodyForm {
-    grid-area: body;
-}
-
-.pieForm {
-    grid-area: pie;
-}
-
-form {
-    margin: 5%;
 }
 
 /*Versión tablet*/
@@ -73,13 +57,6 @@ form {
 
     .cuerpoForm {
         font-size: 1rem;
-    }
-
-    .contenedorForm {
-        grid-template-areas:
-            "header header"
-            "body body"
-            "pie pie";
     }
 }
 
@@ -104,12 +81,5 @@ form {
 
     .cuerpoForm {
         font-size: 1rem;
-    }
-
-    .contenedorForm {
-        grid-template-areas:
-            "header header"
-            "body body"
-            "pie pie";
     }
 }

@@ -1,44 +1,49 @@
-
-span {
-    font-size: 2rem;
-    color: #914e09;
-    text-align: center;
-    font-style: oblique;
-    font-family: 'Playfair Display', serif;
-}
-
-.titulo {
-	text-decoration: none;
-}
-
 .center-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+
+  .titulo {
+    text-decoration: none;
+
+    span {
+      font-size: 2rem;
+      color: #914e09;
+      text-align: center;
+      font-style: oblique;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .typing-container {
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: typing 4s steps(40, end), blink-caret 0.75s step-end;
+    }
   }
-  
-.typing-container {
-    white-space: nowrap;
-    overflow: hidden;
-	display: inline-block;
-    animation: typing 4s steps(40, end), blink-caret 0.75s step-end;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
   }
 
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-right-color: transparent;
   }
 
-  @keyframes blink-caret {
-    from, to {
-      border-right-color: transparent;
-    }
-    50% {
-      border-right-color: black;
-    }
+  50% {
+    border-right-color: black;
   }
+}

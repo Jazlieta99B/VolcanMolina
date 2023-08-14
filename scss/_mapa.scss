@@ -1,11 +1,11 @@
-.PMMapa {
-    align-content: center;
-}
-
 .mapa {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .PMMapa {
+        align-content: center;
+    }
 }
 
 /*Versión celu*/
