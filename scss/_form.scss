@@ -8,9 +8,17 @@
     padding: 0.3rem;
     margin: 1% 33%;
 
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
     form {
         margin: 5%;
-
 
         label {
             display: block;
@@ -28,6 +36,8 @@
         .boton {
             background-color: bisque;
             border: gray 0.1rem solid;
+            width: 50%;
+            margin: 1% 1%;
         }
 
         .boton:hover {

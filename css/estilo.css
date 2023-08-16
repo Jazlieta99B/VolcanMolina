@@ -59,6 +59,14 @@ footer .pie {
   padding: 0.3rem;
   margin: 1% 33%;
 }
+.caja .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
 .caja form {
   margin: 5%;
 }
@@ -75,6 +83,8 @@ footer .pie {
 .caja form .boton {
   background-color: bisque;
   border: gray 0.1rem solid;
+  width: 50%;
+  margin: 1% 1%;
 }
 .caja form .boton:hover {
   background-color: #f1bc86;
@@ -120,6 +130,7 @@ footer .pie {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3%;
 }
 .mapa .PMMapa {
   align-content: center;
@@ -269,6 +280,10 @@ body .flora {
   display: inline-flex;
   gap: 2rem;
   flex-wrap: wrap;
+}
+
+.fotos {
+  padding: 3%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
