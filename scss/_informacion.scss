@@ -1,0 +1,18 @@
+.cuerpoInfo {
+    width: 95%;
+    text-align: center;
+    margin: 1% 2.5%;
+
+    .fauna,
+    .flora {
+        display: inline-flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+
+    .subTitulo {
+        text-decoration: underline;
+        text-align: left;
+    }
+}

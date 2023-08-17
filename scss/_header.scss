@@ -9,11 +9,11 @@ header {
 		margin-left: 0;
 
 		.bt {
-			color: #d7710a;
+			color: #d07d2b;
 			font-weight: bold;
 
 			&:hover {
-				color: #d7710a;
+				color: #914e09
 			}
 
 			.VMNav {
@@ -33,6 +33,7 @@ header {
 		.header {
 			font-size: 1.3rem;
 			color: #eb9c4d;
+			transition: all 1s ease;
 
 			&:hover {
 				color: #d7710a;

@@ -1,11 +1,17 @@
-.mapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
+.cuerpoM {
+    width: 95%;
+    text-align: center;
+    margin: 1% 2.5%;
 
-    .PMMapa {
-        align-content: center;
+    .mapa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+
+        .PMMapa {
+            align-content: center;
+        }
     }
 }
 

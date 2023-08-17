@@ -10,11 +10,11 @@ header .navbar {
   margin-left: 0;
 }
 header .navbar .bt {
-  color: #d7710a;
+  color: #d07d2b;
   font-weight: bold;
 }
 header .navbar .bt:hover {
-  color: #d7710a;
+  color: #914e09;
 }
 header .navbar .bt .VMNav {
   font-size: 2rem;
@@ -29,6 +29,7 @@ header .fuenteNavBar {
 header .fuenteNavBar .header {
   font-size: 1.3rem;
   color: #eb9c4d;
+  transition: all 1s ease;
 }
 header .fuenteNavBar .header:hover {
   color: #d7710a;
@@ -81,21 +82,23 @@ footer .pie {
   cursor: pointer;
 }
 .caja form .boton {
-  background-color: bisque;
-  border: gray 0.1rem solid;
-  width: 50%;
+  background-color: #eb9c4d;
+  border: none;
+  width: 40%;
   margin: 1% 1%;
+  border-radius: 50%;
+  color: white;
 }
 .caja form .boton:hover {
   background-color: #f1bc86;
 }
 
 /*Versión tablet*/
-@media (min-width: 501px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 900px) {
   .caja {
-    width: 50%;
+    width: 60%;
     height: 50%;
-    margin-left: 20%;
+    margin: 1% 20%;
     overflow: scroll;
   }
   .navegador {
@@ -113,7 +116,7 @@ footer .pie {
   .caja {
     width: 80%;
     height: 60%;
-    margin-left: 10%;
+    margin: 1% 10%;
     overflow: scroll;
   }
   .navegador {
@@ -126,13 +129,18 @@ footer .pie {
     font-size: 1rem;
   }
 }
-.mapa {
+.cuerpoM {
+  width: 95%;
+  text-align: center;
+  margin: 1% 2.5%;
+}
+.cuerpoM .mapa {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3%;
 }
-.mapa .PMMapa {
+.cuerpoM .mapa .PMMapa {
   align-content: center;
 }
 
@@ -242,6 +250,38 @@ figure {
     border-right-color: black;
   }
 }
+.fotosCarr {
+  width: 80%;
+  margin: 1% 10%;
+  text-align: center;
+  padding: 0.3rem;
+}
+.fotosCarr .alto {
+  height: 5%;
+}
+
+.textoVM {
+  width: 95%;
+  text-align: center;
+  margin: 1% 2.5%;
+}
+
+.cuerpoInfo {
+  width: 95%;
+  text-align: center;
+  margin: 1% 2.5%;
+}
+.cuerpoInfo .fauna,
+.cuerpoInfo .flora {
+  display: inline-flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.cuerpoInfo .subTitulo {
+  text-decoration: underline;
+  text-align: left;
+}
+
 body {
   background-color: #f4e0a4;
   font-family: "Poppins", sans-serif;
@@ -263,9 +303,6 @@ body label {
   font-size: 1.3rem;
   text-align: justify;
 }
-body .subTitulo {
-  text-decoration: underline;
-}
 body .linea {
   text-decoration: underline;
 }
@@ -274,16 +311,6 @@ body .italica {
 }
 body .negrita {
   font-weight: bold;
-}
-body .fauna,
-body .flora {
-  display: inline-flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.fotos {
-  padding: 3%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
